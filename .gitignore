@@ -1,0 +1,30 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Données sources (à télécharger séparément, voir README)
+data/*
+!data/.gitkeep
+
+# Fichiers lourds ou hors sujet
+*.mp4
+*.pdf
+*.zip
+*.parquet
+
+# Secrets et configuration locale
+.env
+*.key
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

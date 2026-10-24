@@ -67,6 +67,16 @@ jupyter notebook fetes_conso_senegal.ipynb
 
 Python 3.9 ou plus récent est nécessaire.
 
+## Tableau de bord
+
+Une fois le notebook exécuté (il génère `outputs/prevision_2026.csv`), lance l'application Streamlit :
+
+```bash
+python -m streamlit run app.py
+```
+
+Elle permet de filtrer la prévision 2026 par catégorie, point de vente et période, et d'exporter le résultat.
+
 ## Sortie produite
 
 `outputs/prevision_2026.csv` : prévision quotidienne 2026 (`prevu`) et plafond P90 (`q90`) pour chaque magasin et chaque catégorie.
@@ -80,4 +90,4 @@ Python 3.9 ou plus récent est nécessaire.
 
 ## Stack
 
-Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, Jupyter.
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, Jupyter, Streamlit.
